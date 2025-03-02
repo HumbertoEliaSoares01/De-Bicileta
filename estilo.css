@@ -6,7 +6,12 @@ body{
     margin: 10px;
     padding: 10px;
     font-size: 1.5em;
-    /* background-image: url(roda_de_bicicleta_aro_26_roda_26_dianteira_bivalente_ferro_36_furos_heal_1287_1_c0a27c4230171c8042bef80ba5e91b62.webp); */
+    background-image: 
+        url(roda_de_bicicleta_aro_26_roda_26_dianteira_bivalente_ferro_36_furos_heal_1287_1_c0a27c4230171c8042bef80ba5e91b62.webp);
+        id="fundoBody";
+}
+#fundoBody{
+    opacity: 0.2;
 }
 h1{
     font-size: 3em;
