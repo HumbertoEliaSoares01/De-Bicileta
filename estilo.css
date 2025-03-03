@@ -1,13 +1,19 @@
+:root{
+    --cor001:#ffffff80;
+    --cor002:#dddede80;
+    --cor003: #d2691e;
+    --cor004: #a52a2a;
+}
 html{
     margin: 0px;
     padding: 0px;
-    background-color: rgba(221, 222, 222, 0.5);
+    background-color:var(--cor002);
 }
 body{
     margin: 20px;
     padding: 20px;
     font-size: 1.5em;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color:var(--cor001);
     background-image: 
         url(fundo\ com\ transparencia.png);
 }
@@ -25,16 +31,26 @@ h1{
     text-align: center;
 }
 h2{
-    font-size: 2.5em;
+    font-size: 2.8em;
     text-align: center;
+    color: var(--cor003);
 }
 h3{
     text-align: justify;
-    padding: 20px, 100px, 20px, 400px;
+    padding: 20px 100px 20px 200px;
+    color: var(--cor004);
+    font-style: italic;
 }
 h4{
     text-align: center;
     font-size: 2.5em;
+}
+span{
+    display: block;
+    padding-right: 100px;
+    text-align: right;
+    color: var(--cor004);
+    font-size: 1em;
 }
 p{
     text-align: justify;
