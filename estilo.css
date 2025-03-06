@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 :root{
     --cor001:#ffffff80;
     --cor002:#dddede80;
     --cor003: #d2691e;
     --cor004: #a52a2a;
+=======
+.autor{
+    text-align: right;
+>>>>>>> html
 }
 html{
     margin: 0px;
