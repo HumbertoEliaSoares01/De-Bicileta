@@ -72,6 +72,6 @@ p{
     left: 100px;
 } */
 ul{
-    list-style: none;
+    /* list-style: none; */
     margin: 20px 40px;
 }
