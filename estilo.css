@@ -1,13 +1,16 @@
-<<<<<<< HEAD
 :root{
     --cor001:#ffffff80;
     --cor002:#dddede80;
     --cor003: #d2691e;
     --cor004: #a52a2a;
-=======
 .autor{
     text-align: right;
->>>>>>> html
+}
+#indice{
+    padding: 5px 100px;
+}
+#ol-indice{
+    padding: 50px 100px;
 }
 html{
     margin: 0px;
@@ -68,12 +71,6 @@ p{
     opacity: 0.2;
     left: 100px;
 } */
-#indice{
-    padding: 5px 100px;
-}
-#ol-indice{
-    padding: 50px 100px;
-}
 ul{
     list-style: none;
     margin: 20px 40px;
